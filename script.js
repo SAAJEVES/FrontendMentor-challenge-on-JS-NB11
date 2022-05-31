@@ -19,12 +19,6 @@ divShare.onmouseover = () => {
     divSocial.style.backgroundColor = "var(--VDGB)";
 }
 
-divShare.ontouchstart = () => {
-    noneDisplay.style.display = "block";
-    imgShare.src = "icon-share1.svg";
-    divSocial.style.backgroundColor = "var(--VDGB)";
-}
-
 
 window.onclick = function(e) {
     if (e.target.className !== "social") {
